@@ -231,7 +231,7 @@
 
             // --- Get Guest Name from URL ---
             const urlParams = new URLSearchParams(window.location.search);
-            const guest = urlParams.get('kpd') || 'Tamu Undangan';
+            const guest = urlParams.get('nama') || 'Tamu Undangan';
             guestNameCover.textContent = guest;
 
             // --- Open Invitation Logic ---
@@ -311,3 +311,4 @@
     </script>
 </body>
 </html>
+
